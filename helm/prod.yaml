@@ -7,3 +7,12 @@ schemaLoadJob:
   create: true
   type: mysql
 
+
+resources:
+  limits:
+    cpu: 1000m
+    memory: 2048Mi
+  requests:
+    cpu: 1000m
+    memory: 1500Mi
+
