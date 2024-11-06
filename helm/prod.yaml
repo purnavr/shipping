@@ -11,6 +11,7 @@ schemaLoadJob:
 resources:
   limits:
     cpu: 1000m
+    #cpu: 1300m
     memory: 2048Mi
     #memory: 3048Mi
   requests:
