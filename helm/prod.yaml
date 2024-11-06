@@ -10,12 +10,12 @@ schemaLoadJob:
 
 resources:
   limits:
-    cpu: 1000m
-    #cpu: 1300m
-    memory: 2048Mi
-    #memory: 3048Mi
+    #cpu: 1000m
+    cpu: 1300m
+    #memory: 2048Mi
+    memory: 3048Mi
   requests:
     cpu: 1000m
-    memory: 1500Mi
-    #memory: 2500Mi
+    #memory: 1500Mi
+    memory: 2500Mi
 
